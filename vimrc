@@ -4,6 +4,7 @@
 call plug#begin('~/.vim/bundle')
 Plug 'syntastic'
 Plug 'scrooloose/nerdtree'
+Plug 'solarized'
 call plug#end()
 
 " Recommended settings for syntastic
@@ -27,7 +28,9 @@ set expandtab
 
 " Colors and syntax highlighting
 set t_Co=256
-syntax on
+syntax enable
+set background=dark
+colorscheme solarized
 
 " Set files with extension .mdwn to be recognized as markdown
 filetype on
