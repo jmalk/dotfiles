@@ -23,3 +23,13 @@ alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
 
+# Show directory contents after navigation
+cd() {
+    builtin cd "$*";
+    nfiles=$(ls . | wc -l)
+    if [ $nfiles -lt 100 ]; then
+        ls
+    else
+        echo "(${nfiles} files)"
+    fi
+}
