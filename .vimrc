@@ -20,6 +20,9 @@ let g:syntastic_check_on_wq = 0
 " Line numbers
 set number
 
+" Navigation fixes
+set backspace=indent,eol,start
+
 " Preferred indentations
 filetype plugin indent on
 set tabstop=4
