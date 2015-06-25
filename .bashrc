@@ -29,7 +29,7 @@ cd() {
     builtin cd "$*";
     nfiles=$(ls . | wc -l)
     if [ $nfiles -lt 100 ]; then
-        ls
+        ll
     else
         echo "(${nfiles} files)"
     fi
