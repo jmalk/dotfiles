@@ -7,18 +7,12 @@ Plug 'scrooloose/nerdtree'
 Plug 'solarized'
 call plug#end()
 
-" Recommended settings for syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-" Line numbers
+" Line numbers, colors and syntax highlighting
 set number
+set t_Co=256
+syntax enable
+set background=dark
+colorscheme solarized
 
 " Navigation fixes
 set backspace=indent,eol,start
@@ -29,12 +23,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" Colors and syntax highlighting
-set t_Co=256
-syntax enable
-set background=dark
-colorscheme solarized
-
 " Set files with extension .mdwn to be recognized as markdown
 filetype on
 au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown
@@ -43,3 +31,15 @@ au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown
 set ignorecase
 set smartcase
 set incsearch
+
+" Recommended settings for syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+
