@@ -1,9 +1,6 @@
 ## Command prompt ##
 export PS1="\u@\h:\w$ "
 
-## Path ##
-export PATH=/usr/local/bin:$PATH
-
 ## Colorful ##
 export CLICOLOR=1
 
