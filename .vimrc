@@ -25,6 +25,10 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" UI options
+set wildmenu " visual autocomplete for command menu
+set lazyredraw " only redraw when you need to
+
 " Navigation fixes
 set backspace=indent,eol,start
 
