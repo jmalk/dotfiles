@@ -1,10 +1,17 @@
 " ~/.vimrc (configuration file for vim)
 
+call plug#begin('~/.vim/bundle')
+Plug 'syntastic'
+Plug 'solarized'
+call plug#end()
+
 " Line numbers, colors and syntax highlighting
 set number
 set cursorline
 set t_Co=256
+set background=dark
 syntax enable
+colorscheme solarized
 
 " UI options
 set wildmenu " visual autocomplete for command menu
