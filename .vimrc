@@ -1,29 +1,10 @@
 " ~/.vimrc (configuration file for vim)
 
-" Load plugins with vim-plug
-call plug#begin('~/.vim/bundle')
-Plug 'syntastic'
-Plug 'scrooloose/nerdtree'
-Plug 'solarized'
-call plug#end()
-
-" Recommended settings for syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
 " Line numbers, colors and syntax highlighting
 set number
 set cursorline
 set t_Co=256
 syntax enable
-set background=dark
-colorscheme solarized
 
 " UI options
 set wildmenu " visual autocomplete for command menu
