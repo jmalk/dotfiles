@@ -8,6 +8,13 @@ export CLICOLOR=1
 
 # Edit this file
 alias bashrc='vim ~/.bashrc && source ~/.bashrc'
+alias g='git'
+alias got='git'
+alias wow='git status'
+alias such='git'
+alias very='git'
+alias many='git'
+alias much='git'
 
 # Preferred ls implementation
 alias ls='ls -GFh'
