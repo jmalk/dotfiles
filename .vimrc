@@ -1,6 +1,7 @@
 " ~/.vimrc (configuration file for vim)
 
 call plug#begin('~/.vim/bundle')
+Plug 'tpope/vim-fugitive'
 Plug 'syntastic'
 Plug 'solarized'
 call plug#end()
