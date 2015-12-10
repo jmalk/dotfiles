@@ -27,6 +27,10 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
+alias docs='cd ~/Documents'
+alias dlds='cd ~/Downloads'
+alias pics='cd ~/Pictures'
+
 
 # Show directory contents after navigation
 cd() {
