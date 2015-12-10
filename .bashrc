@@ -8,8 +8,12 @@ export CLICOLOR=1
 
 # Edit this file
 alias bashrc='vim ~/.bashrc && source ~/.bashrc'
+
+# git
 alias g='git'
 alias got='git'
+
+# doge-git
 alias wow='git status'
 alias such='git'
 alias very='git'
