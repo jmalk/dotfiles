@@ -1,9 +1,12 @@
 " ~/.vimrc (configuration file for vim)
 
 call plug#begin('~/.vim/bundle')
-Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/NERDTree'
+Plug 'vim-airline'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'syntastic'
 Plug 'solarized'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Line numbers, colors and syntax highlighting
