@@ -21,6 +21,10 @@ colorscheme solarized
 set wildmenu " visual autocomplete for command menu
 set lazyredraw " only redraw when you need to
 
+" Split below and right
+set splitbelow
+set splitright
+
 " Navigation fixes
 set backspace=indent,eol,start
 
