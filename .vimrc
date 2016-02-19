@@ -34,8 +34,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" Ruby indentations
+" Two-space indentations
 au FileType ruby setl sw=2 sts=2 et
+au FileType scss setl sw=2 sts=2 et
 
 " Case sensitivity of searches
 set ignorecase
