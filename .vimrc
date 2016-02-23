@@ -7,6 +7,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'syntastic'
 Plug 'solarized'
 Plug 'tpope/vim-fugitive'
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 " Line numbers, colors and syntax highlighting
