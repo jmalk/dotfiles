@@ -25,8 +25,11 @@ set lazyredraw " only redraw when you need to
 set splitbelow
 set splitright
 
-" Navigation fixes
+" Backspace over anything
 set backspace=indent,eol,start
+
+" Keep a few lines visible above or below the cursor
+set scrolloff=3
 
 " Preferred indentations
 filetype plugin indent on
