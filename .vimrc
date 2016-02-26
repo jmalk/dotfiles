@@ -44,7 +44,6 @@ set smartcase
 set incsearch
 
 " Set files with extension .mdwn to be recognized as markdown
-filetype on
 au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown
 
 " Recommended settings for syntastic
