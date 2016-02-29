@@ -17,6 +17,7 @@ set cursorline
 set t_Co=256
 syntax enable
 colorscheme solarized
+set background=dark
 
 " UI options
 set wildmenu " visual autocomplete for command menu
