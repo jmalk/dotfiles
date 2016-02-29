@@ -9,6 +9,9 @@ export CLICOLOR=1
 # Edit this file
 alias bashrc='vim ~/.bashrc && source ~/.bashrc'
 
+# Edit other configs
+alias vimrc='vim ~/.vimrc'
+
 # git
 alias g='git'
 alias got='git'
