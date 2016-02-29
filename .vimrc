@@ -8,6 +8,7 @@ Plug 'syntastic'
 Plug 'solarized'
 Plug 'tpope/vim-fugitive'
 Plug 'Yggdroot/indentLine'
+Plug 'ternjs/tern_for_vim'
 call plug#end()
 
 " Line numbers, colors and syntax highlighting
