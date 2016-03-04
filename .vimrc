@@ -17,7 +17,6 @@ set cursorline
 set t_Co=256
 syntax enable
 colorscheme solarized
-set background=dark
 
 " UI options
 set wildmenu " visual autocomplete for command menu
@@ -66,3 +65,6 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 let g:airline_powerline_fonts = 1
+
+" Display fugitive diffs side-by-side
+set diffopt=vertical
