@@ -9,6 +9,7 @@ Plug 'solarized'
 Plug 'tpope/vim-fugitive'
 Plug 'Yggdroot/indentLine'
 Plug 'ternjs/tern_for_vim'
+Plug 'AlessandroYorba/Sierra'
 call plug#end()
 
 " Line numbers, colors and syntax highlighting
@@ -16,7 +17,7 @@ set number
 set cursorline
 set t_Co=256
 syntax enable
-colorscheme solarized
+colorscheme sierra
 
 " UI options
 set wildmenu " visual autocomplete for command menu
