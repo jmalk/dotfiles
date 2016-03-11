@@ -19,6 +19,9 @@ set t_Co=256
 syntax enable
 colorscheme sierra
 
+" Don't let words overflow end of line (word wrap?)
+set linebreak
+
 " UI options
 set wildmenu " visual autocomplete for command menu
 set lazyredraw " only redraw when you need to
