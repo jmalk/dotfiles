@@ -62,6 +62,7 @@ set expandtab
 " Two-space indentations for some filetypes
 au FileType ruby setl sw=2 sts=2 et
 au FileType scss setl sw=2 sts=2 et
+au FileType html setl sw=2 sts=2 et
 
 " Case sensitivity of searches
 set ignorecase
