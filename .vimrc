@@ -89,5 +89,8 @@ let g:syntastic_check_on_wq = 0
 let g:airline_powerline_fonts = 1
 let g:airline_theme='tomorrow'
 
+" Always show status line
+set laststatus=2
+
 " Display fugitive diffs side-by-side
 set diffopt=vertical
