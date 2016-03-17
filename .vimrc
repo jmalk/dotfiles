@@ -4,6 +4,7 @@
 call plug#begin('~/.vim/bundle')
 Plug 'scrooloose/NERDTree'
 Plug 'vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'syntastic'
 Plug 'solarized'
