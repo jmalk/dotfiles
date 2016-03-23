@@ -7,11 +7,9 @@ Plug 'vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'syntastic'
-Plug 'solarized'
 Plug 'tpope/vim-fugitive'
 Plug 'Yggdroot/indentLine'
 Plug 'ternjs/tern_for_vim'
-Plug 'AlessandroYorba/Sierra'
 call plug#end()
 
 " Show line numbers
@@ -25,9 +23,6 @@ set t_Co=256
 
 " Turn on syntax highlighting
 syntax enable
-
-" Use sierra colorscheme
-colorscheme sierra
 
 " Don't let words overflow end of line (word wrap?)
 set linebreak
@@ -87,7 +82,6 @@ let g:syntastic_check_on_wq = 0
 
 " Airline settings
 let g:airline_powerline_fonts = 1
-let g:airline_theme='tomorrow'
 
 " Always show status line
 set laststatus=2
