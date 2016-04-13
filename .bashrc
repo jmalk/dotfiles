@@ -1,5 +1,5 @@
 ## Command prompt ##
-export PS1="\u@\h:\w$ "
+export PS1="\h:\w$ "
 
 ## Colorful ##
 export CLICOLOR=1
