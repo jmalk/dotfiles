@@ -8,7 +8,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'syntastic'
 Plug 'tpope/vim-fugitive'
-Plug 'Yggdroot/indentLine'
 call plug#end()
 
 " Show line numbers
