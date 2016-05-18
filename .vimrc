@@ -10,6 +10,10 @@ Plug 'syntastic'
 Plug 'tpope/vim-fugitive'
 call plug#end()
 
+" Color scheme!
+colorscheme solarized
+set background=dark
+
 " Show line numbers
 set number
 
