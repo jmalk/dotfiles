@@ -42,10 +42,6 @@ set splitright
 " Backspace over anything
 set backspace=indent,eol,start
 
-" Move up/down a visual line, not a whole text line
-nnoremap j gj
-nnoremap k gk
-
 " Keep a few lines visible above or below the cursor when scrolling
 set scrolloff=3
 
