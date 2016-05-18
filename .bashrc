@@ -29,18 +29,18 @@ alias ll='ls -l'
 alias la='ls -al'
 
 # Directory navigation
-alias ~='cd ~'
-alias ..='cd ../'
-alias ...='cd ../../'
-alias ....='cd ../../../'
-alias .....='cd ../../../../'
-alias docs='cd ~/Documents'
-alias dlds='cd ~/Downloads'
-alias pics='cd ~/Pictures'
-alias journal='cd ~/journal'
+alias ~='c ~'
+alias ..='c ../'
+alias ...='c ../../'
+alias ....='c ../../../'
+alias .....='c ../../../../'
+alias docs='c ~/Documents'
+alias dlds='c ~/Downloads'
+alias pics='c ~/Pictures'
+alias journal='c ~/journal'
 
 # Show directory contents after navigation
-cd() {
+function c() {
     builtin cd "$*";
     nfiles=$(ls . | wc -l)
     if [ $nfiles -lt 100 ]; then
@@ -49,3 +49,4 @@ cd() {
         echo "(${nfiles} files)"
     fi
 }
+
