@@ -1,18 +1,14 @@
 " ~/.vimrc (configuration file for vim)
 
 " Install plugins by running :PlugInstall
-call plug#begin('~/.vim/bundle')
-Plug 'altercation/vim-colors-solarized'
-Plug 'vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'syntastic'
-Plug 'tpope/vim-fugitive'
-call plug#end()
-
-" Color scheme!
-colorscheme solarized
-set background=dark
+" call plug#begin('~/.vim/bundle')
+" Plug 'altercation/vim-colors-solarized'
+" Plug 'vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+" Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'syntastic'
+" Plug 'tpope/vim-fugitive'
+" call plug#end()
 
 " Show line numbers
 set number
@@ -65,24 +61,3 @@ set incsearch
 
 " Set files with extension .mdwn to be recognized as markdown
 au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown
-
-""" Plugin-specific options
-
-" Recommended settings for syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-" Airline settings
-let g:airline_powerline_fonts = 1
-
-" Always show status line
-set laststatus=2
-
-" Display fugitive diffs side-by-side
-set diffopt=vertical
