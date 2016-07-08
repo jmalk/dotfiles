@@ -13,7 +13,7 @@ if [ ! -f ~/git-completion.bash ]; then
 fi
 
 if [ -f ~/git-completion.bash ]; then
-    source ~/git-completion.bash && echo "Git autocomplete enabled"
+    source ~/git-completion.bash && echo "Git autocomplete enabled."
 fi
 
 #Grunt autocomplete
@@ -23,7 +23,7 @@ if [ ! -f ~/grunt-completion.bash ]; then
 fi
 
 if [ -f ~/grunt-completion.bash ]; then
-    source ~/grunt-completion.bash && echo "Grunt autocomplete enabled"
+    source ~/grunt-completion.bash && echo "Grunt autocomplete enabled."
 fi
 
 ## Aliases ##
