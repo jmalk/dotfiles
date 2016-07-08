@@ -49,6 +49,7 @@ alias .....='c ../../../../'
 alias docs='c ~/Documents'
 alias dlds='c ~/Downloads'
 alias pics='c ~/Pictures'
+alias jrnl='c ~/Box Sync/journal'
 
 # Show directory contents after navigation
 function c() {
