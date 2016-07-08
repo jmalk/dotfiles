@@ -4,6 +4,18 @@ export PS1="\h:\w$ "
 ## Colorful ##
 export CLICOLOR=1
 
+## Auto-completion ##
+
+# Git autocomplete
+if [ ! -f ~/git-completion.bash ]; then
+    echo "No git completion file, attempting to download."
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/git-completion.bash
+fi
+
+if [ -f ~/git-completion.bash ]; then
+    source ~/git-completion.bash && echo "Git autocomplete enabled"
+fi
+
 ## Aliases ##
 
 # Edit this file
