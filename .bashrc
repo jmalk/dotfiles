@@ -16,16 +16,6 @@ if [ -f ~/git-completion.bash ]; then
     source ~/git-completion.bash && echo "Git autocomplete enabled."
 fi
 
-#Grunt autocomplete
-if [ ! -f ~/grunt-completion.bash ]; then
-    echo "No grunt completion file, attempting to generate."
-    grunt --completion=bash > ~/grunt-completion.bash
-fi
-
-if [ -f ~/grunt-completion.bash ]; then
-    source ~/grunt-completion.bash && echo "Grunt autocomplete enabled."
-fi
-
 ## Aliases ##
 
 # Edit this file
