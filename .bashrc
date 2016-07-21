@@ -7,9 +7,14 @@ export CLICOLOR=1
 ## Auto-completion ##
 
 # Git autocomplete
-if [ ! -f ~/git-completion.bash ]; then
+if [ ! -d git ]; then
+    echo "Making directory: 'git'"
+    mkdir git
+fi
+
+if [ ! -f ~/git/git-completion.bash ]; then
     echo "No git completion file, attempting to download."
-    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/git-completion.bash
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ./git/git-completion.bash
 fi
 
 if [ -f ~/git-completion.bash ]; then
