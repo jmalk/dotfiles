@@ -32,6 +32,7 @@ alias vimrc='vim ~/.vimrc'
 # git
 alias g='git'
 alias got='git'
+alias checkin='git pull -r && git push'
 
 # doge-git
 alias wow='git status'
