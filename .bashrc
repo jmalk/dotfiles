@@ -12,7 +12,7 @@ if [ ! -d git ]; then
     mkdir git
 fi
 
-if [ ! -f ~/git/git-completion.bash ]; then
+if [ ! -f ./git/git-completion.bash ]; then
     echo "No git completion file, attempting to download."
     curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ./git/git-completion.bash
 fi
