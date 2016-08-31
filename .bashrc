@@ -7,18 +7,18 @@ export CLICOLOR=1
 ## Auto-completion ##
 
 # Git autocomplete
-if [ ! -d git ]; then
+if [ ! -d ~/dotfiles/git ]; then
     echo "Making directory: 'git'"
-    mkdir git
+    mkdir ~/dotfiles/git
 fi
 
-if [ ! -f ./git/git-completion.bash ]; then
+if [ ! -f ~/dotfiles/git/git-completion.bash ]; then
     echo "No git completion file, attempting to download."
-    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ./git/git-completion.bash
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/dotfiles/git/git-completion.bash
 fi
 
-if [ -f ~/git-completion.bash ]; then
-    source ~/git-completion.bash && echo "Git autocomplete enabled."
+if [ -f ~/dotfiles/git/git-completion.bash ]; then
+    source ~/dotfiles/git/git-completion.bash && echo "Git autocomplete enabled."
 fi
 
 ## Aliases ##
