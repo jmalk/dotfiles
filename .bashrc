@@ -18,7 +18,7 @@ if [ ! -f ~/dotfiles/git/git-completion.bash ]; then
 fi
 
 if [ -f ~/dotfiles/git/git-completion.bash ]; then
-    source ~/dotfiles/git/git-completion.bash && echo "Git autocomplete enabled."
+    source ~/dotfiles/git/git-completion.bash
 fi
 
 ## Aliases ##
