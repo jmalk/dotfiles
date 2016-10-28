@@ -16,6 +16,9 @@ set number
 " Highlight line cursor is on
 set cursorline
 
+" Always show statusline
+set laststatus=2
+
 " Use 256 colors
 set t_Co=256
 
