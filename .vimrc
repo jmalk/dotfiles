@@ -47,17 +47,10 @@ set scrolloff=3
 " Preferred indentations
 filetype plugin indent on
 
-" Four-space indentations by default
-set tabstop=4
-set shiftwidth=4
+" Two-space indentations by default
+set tabstop=2
+set shiftwidth=2
 set expandtab
-
-" Two-space indentations for some filetypes
-au FileType ruby setl sw=2 sts=2 et
-au FileType scss setl sw=2 sts=2 et
-au FileType html setl sw=2 sts=2 et
-au FileType json setl sw=2 sts=2 et
-au FileType javascript setl sw=2 sts=2 et
 
 " Case sensitivity of searches
 set ignorecase
