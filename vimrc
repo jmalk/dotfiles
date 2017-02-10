@@ -52,6 +52,10 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" Auto indent pasted text
+nnoremap p p=`]<C-o>
+nnoremap P P=`]<C-o>
+
 " Case sensitivity of searches
 set ignorecase
 set smartcase
