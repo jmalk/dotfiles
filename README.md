@@ -1,3 +1,7 @@
 # dotfiles
 
 A backup of configuration files. Can be cloned into a directory, e.g. dotfiles/ then symlinked to from the home directory, or put in place manually.
+
+## Prerequisites
+
+To load plugins specified in vimrc you will need [VimPlug](https://github.com/junegunn/vim-plug).
