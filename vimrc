@@ -1,14 +1,9 @@
 " ~/.vimrc (configuration file for vim)
 
 " Install plugins by running :PlugInstall
-" call plug#begin('~/.vim/bundle')
-" Plug 'altercation/vim-colors-solarized'
-" Plug 'vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
-" Plug 'ctrlpvim/ctrlp.vim'
-" Plug 'syntastic'
-" Plug 'tpope/vim-fugitive'
-" call plug#end()
+call plug#begin('~/.vim/bundle')
+Plug 'scrooloose/nerdtree'
+call plug#end()
 
 " Show line numbers
 set number
