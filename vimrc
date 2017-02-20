@@ -5,6 +5,11 @@ call plug#begin('~/.vim/bundle')
 Plug 'scrooloose/nerdtree'
 call plug#end()
 
+" Use mouse if possible
+if has('mouse')
+  set mouse=a
+endif
+
 " Show line numbers
 set number
 
