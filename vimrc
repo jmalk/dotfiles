@@ -3,6 +3,7 @@
 " Install plugins by running :PlugInstall
 call plug#begin('~/.vim/bundle')
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Use mouse if possible
