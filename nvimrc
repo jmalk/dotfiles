@@ -1,41 +1,43 @@
 " ~/.nvimrc (configuration file for NeoVim)
 
-" Line numbers, colors and syntax highlighting
+" Install plugins by running :PlugInstall
+call plug#begin('~/.vim/bundle')
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fugitive'
+call plug#end()
+
+" Use mouse if possible
+if has('mouse')
+  set mouse=a
+endif
+
+" UI / Display
+syntax enable
 set number
 set cursorline
 set t_Co=256
-syntax enable
-
-" Don't let words overflow end of line (word wrap?)
 set linebreak
-
-" UI options
-set wildmenu " visual autocomplete for command menu
-set lazyredraw " only redraw when you need to
-
-" Split below and right
+set lazyredraw
+set scrolloff=3
 set splitbelow
 set splitright
-
-" Backspace over anything
 set backspace=indent,eol,start
 
-" Move up/down a visual line, not a whole text line (more intuitive)
-nnoremap j gj
-nnoremap k gk
+" Statusline
+set laststatus=2
 
-" Keep a few lines visible above or below the cursor
-set scrolloff=3
+" Command autocompletion
+set wildmenu " visual autocomplete for command menu
 
 " Preferred indentations
 filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
-" Two-space indentations
-au FileType ruby setl sw=2 sts=2 et
-au FileType scss setl sw=2 sts=2 et
+" Auto indent pasted text
+nnoremap p p=`]<C-o>
+nnoremap P P=`]<C-o>
 
 " Case sensitivity of searches
 set ignorecase
@@ -44,4 +46,9 @@ set incsearch
 
 " Set files with extension .mdwn to be recognized as markdown
 au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown
+
+" NERDTree settings
+autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
+" Close Vim if NERDTreeis the only buffer left open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
