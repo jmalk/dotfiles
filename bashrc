@@ -3,6 +3,8 @@ export PS1="\h : \w\n$  "
 
 ## Colorful ##
 export CLICOLOR=1
+# Try following solarized instructions later and see if you can remove this?
+export TERM=xterm-256color
 
 ## Auto-completion ##
 
