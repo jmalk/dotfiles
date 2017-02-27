@@ -10,6 +10,9 @@ call plug#end()
 
 set background=light
 colorscheme solarized
+set number
+set linebreak
+set scrolloff=3
 
 " NERDTree settings
 autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
