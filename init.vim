@@ -9,3 +9,8 @@ call plug#end()
 
 set background=light
 colorscheme solarized
+
+" NERDTree settings
+autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
+" Close Vim if NERDTree is the only buffer left open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
