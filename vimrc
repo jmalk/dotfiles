@@ -67,5 +67,5 @@ au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} set filetype=markdown
 
 " NERDTree settings
 autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
-" Close Vim if NERDTreeis the only buffer left open
+" Close Vim if NERDTree is the only buffer left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
