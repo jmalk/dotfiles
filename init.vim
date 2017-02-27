@@ -10,7 +10,6 @@ call plug#end()
 
 set background=light
 colorscheme solarized
-set list
 set number
 set linebreak
 set scrolloff=3
