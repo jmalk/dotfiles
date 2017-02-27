@@ -10,6 +10,8 @@ call plug#end()
 
 set background=light
 colorscheme solarized
+set list
+set listchars=tab:▸\ ,eol:¬,nbsp:+
 set number
 set linebreak
 set scrolloff=3
