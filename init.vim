@@ -10,6 +10,7 @@ call plug#end()
 
 set background=light
 colorscheme solarized
+set title "appears on tab in iTerm
 set number
 set linebreak
 set scrolloff=3
