@@ -5,6 +5,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 call plug#end()
