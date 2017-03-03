@@ -19,6 +19,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" wild preferences
+set wildignore+=node_modules/**
+
 " NERDTree settings
 autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
 " Close Vim if NERDTree is the only buffer left open
