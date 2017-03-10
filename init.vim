@@ -29,3 +29,17 @@ set wildignore+=node_modules/**
 autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
 " Close Vim if NERDTree is the only buffer left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" Use The Silver Searcher for grepping and CtrlP
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+  " " ag is fast enough that CtrlP doesn't need to cache
+  let g:ctrlp_use_caching = 0
+endif
+
+nmap <Leader>f :grep ""<Left>
