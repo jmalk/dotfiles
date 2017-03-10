@@ -22,6 +22,8 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+set incsearch
+
 " wild preferences
 set wildignore+=node_modules/**
 
