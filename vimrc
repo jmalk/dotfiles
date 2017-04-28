@@ -5,25 +5,14 @@ if has('mouse')
   set mouse=a
 endif
 
-" Show line numbers
-set number
-
-" Highlight line cursor is on
-set cursorline
-
-" Always show statusline
-set laststatus=2
-
-" Use 256 colors
-set t_Co=256
-
-" Turn on syntax highlighting
+" Display
 syntax enable
-
-" Don't let words overflow end of line (word wrap?)
+set number
+set cursorline
+set laststatus=2
+set t_Co=256
 set linebreak
-
-" Visual autocomplete for command menu
+set scrolloff=3
 set wildmenu
 
 " Only redraw when necessary
@@ -33,21 +22,16 @@ set lazyredraw
 set splitbelow
 set splitright
 
-" Backspace over anything
+" Text editing
 set backspace=indent,eol,start
 
-" Keep a few lines visible above or below the cursor when scrolling
-set scrolloff=3
-
-" Preferred indentations
+" Indentation
 filetype plugin indent on
-
-" Two-space indentations by default
 set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" Auto indent pasted text
+"" Auto indent pasted text
 nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
 
