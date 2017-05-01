@@ -33,13 +33,6 @@ alias vimrc='vim ~/.vimrc'
 alias g='git'
 alias checkin='git pull -r && git push'
 
-# doge-git
-alias wow='git status'
-alias such='git'
-alias very='git'
-alias many='git'
-alias much='git'
-
 # Preferred ls implementation
 alias ls='ls -GFh'
 alias ll='ls -l'
