@@ -23,6 +23,9 @@ fi
 
 ## Aliases ##
 
+# Abbreviations
+alias nv=nvim
+
 # Edit this file
 alias bashrc='nvim ~/dotfiles/bashrc && source ~/.bashrc'
 
