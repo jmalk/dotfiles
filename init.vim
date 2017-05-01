@@ -24,6 +24,8 @@ set expandtab
 
 set incsearch
 
+set hidden
+
 " Window navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
