@@ -24,7 +24,7 @@ fi
 ## Aliases ##
 
 # Edit this file
-alias bashrc='vim ~/.bashrc && source ~/.bashrc'
+alias bashrc='nvim ~/dotfiles/bashrc && source ~/.bashrc'
 
 # Edit other configs
 alias vimrc='vim ~/.vimrc'
