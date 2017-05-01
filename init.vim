@@ -24,6 +24,12 @@ set expandtab
 
 set incsearch
 
+" Window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 " wild preferences
 set wildignore+=node_modules/**
 
