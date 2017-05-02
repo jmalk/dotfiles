@@ -3,7 +3,6 @@
 " Instructions for installing Plug: https://github.com/junegunn/vim-plug
 " Install plugins by running :PlugInstall
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'scrooloose/nerdtree'
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
@@ -34,11 +33,6 @@ map <C-l> <C-w>l
 
 " wild preferences
 set wildignore+=node_modules/**
-
-" NERDTree settings
-autocmd VimEnter * if &filetype !=# 'gitcommit' | NERDTree | endif
-" Close Vim if NERDTree is the only buffer left open
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Use The Silver Searcher for grepping and CtrlP
 if executable('ag')
