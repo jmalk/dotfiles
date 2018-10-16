@@ -8,6 +8,9 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'yuttie/comfortable-motion.vim'
+Plug 'w0rp/ale'
+Plug 'pangloss/vim-javascript'
 call plug#end()
 
 set background=light
@@ -47,3 +50,8 @@ if executable('ag')
 endif
 
 nmap <Leader>f :grep ""<Left>
+
+" After this is configured, :ALEFix will try and fix your JS code with ESLint.
+let g:ale_fixers = {
+\   'javascript': ['eslint'],
+\}

@@ -35,6 +35,7 @@ alias vimrc='vim ~/.vimrc'
 # git
 alias g='git'
 alias checkin='git pull -r && git push'
+alias updt='git stash && git pull -r && git stash apply'
 
 # Preferred ls implementation
 alias ls='ls -GFh'
@@ -50,8 +51,9 @@ alias .....='c ../../../../'
 alias docs='c ~/Documents'
 alias dlds='c ~/Downloads'
 alias pics='c ~/Pictures'
-alias jrnl='c ~/Box Sync/journal'
-alias dev='c ~/develop'
+alias jrnl='c ~/Dropbox \(BBC\)/journal'
+alias dev='c ~/dev'
+alias ws='c ~/workspace'
 
 # Show directory contents after navigation
 function c() {
@@ -64,5 +66,6 @@ function c() {
     fi
 }
 
-
+export PATH=~/.npm-global/bin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export COSMOS_CERT=/Users/malkij01/workspace/client_cert.pem
