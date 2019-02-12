@@ -25,6 +25,8 @@ fi
 
 # Abbreviations
 alias nv=nvim
+alias nrt="npm run test"
+alias nrs="npm run spec"
 
 # Edit this file
 alias bashrc='nvim ~/dotfiles/bashrc && source ~/.bashrc'
@@ -34,6 +36,7 @@ alias vimrc='vim ~/.vimrc'
 
 # git
 alias g='git'
+alias st='git status'
 alias checkin='git pull -r && git push'
 alias updt='git stash && git pull -r && git stash apply'
 
