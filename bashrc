@@ -66,6 +66,12 @@ function c() {
     fi
 }
 
+# Make a directory, then cd in!
+function mcd() {
+    mkdir -p $1
+    cd $1
+}
+
 export PATH=~/.npm-global/bin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export COSMOS_CERT=/Users/malkij01/workspace/client_cert.pem
