@@ -4,5 +4,9 @@
     "window.zoomLevel": 1,
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 2,
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "editor.formatOnSave": false,
+    "[javascript]": {
+      "editor.formatOnSave": true,
+    }
 }
