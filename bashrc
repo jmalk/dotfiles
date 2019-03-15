@@ -24,7 +24,6 @@ fi
 ## Aliases ##
 
 # Abbreviations
-alias nv=nvim
 alias nrt="npm run test"
 alias nrs="npm run spec"
 
@@ -78,3 +77,4 @@ export PATH=~/.npm-global/bin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 source ~/.shared_shell_rc
+source ~/.work_shared_shell_rc
