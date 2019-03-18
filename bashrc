@@ -36,7 +36,6 @@ alias vimrc='vim ~/.vimrc'
 # git
 alias g='git'
 alias st='git status'
-alias checkin='git pull -r && git push'
 alias updt='git stash && git pull -r && git stash apply'
 
 # Preferred ls implementation
