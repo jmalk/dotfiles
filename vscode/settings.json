@@ -7,7 +7,7 @@
     "breadcrumbs.enabled": true,
     "editor.formatOnSave": false,
     "[javascript]": {
-      "editor.formatOnSave": true,
+      "editor.formatOnSave": false,
     },
-    "eslint.autoFixOnSave": true
+    "eslint.autoFixOnSave": false
 }
