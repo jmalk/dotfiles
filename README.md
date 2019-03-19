@@ -11,11 +11,11 @@ To load plugins specified in `init.vim` and `vimrc` you will need [VimPlug](http
 To make a symlink on a Mac run `ln -s /path/to/original/ /path/to/link`
 
 
-# So You've Got a New Laptop?
+# So You've Got a New MacBook?
 
 I would like to automate a lot of this stuff.
 
-## Mac apps
+## Mac apps
 
 * Chrome
 * Firefox
@@ -32,7 +32,7 @@ I would like to automate a lot of this stuff.
 * Install NodeJS - https://nodejs.org/en/
 * Git ssh keys - https://github.com/settings/keys
 
-## Personal preferences
+## Personal preferences
 
 * Dotfiles, e.g. bashrc, vimrc... (mine are in github, do what you want with yours)
 * git autocomplete script - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
