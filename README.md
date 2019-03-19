@@ -25,6 +25,7 @@ I would like to automate a lot of this stuff.
 
 ## Dev tools
 
+* Git - https://git-scm.com/download/
 * XCode command line tools - try and run `gcc` and you'll be prompted to. Get Xcode from App Store if it all fails.
 * Homebrew - https://brew.sh/
 * VSCode
