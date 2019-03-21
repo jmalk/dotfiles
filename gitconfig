@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+  name = Joshua Malkinson
+  email = joshua.malkinson@bbc.co.uk
+[alias]
+	co = checkout
+  br = branch
+  ci = commit
+  st = status
+  unstage = 'reset HEAD --'
