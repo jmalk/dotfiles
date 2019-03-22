@@ -7,3 +7,8 @@ alias n='nvm use `cat .node-version`'
 alias nv='nvim'
 
 alias checkin='git pull -r && git push'
+
+# Clone a repo from GitHub, e.g. `clone jmalk/dotfiles` would clone this repo
+clone () {
+  git clone git@github.com:$1
+}
