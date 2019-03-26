@@ -7,4 +7,3 @@
   br = branch
   ci = commit
   st = status
-  unstage = 'reset HEAD --'
