@@ -55,17 +55,6 @@ alias pics='c ~/Pictures'
 alias dev='c ~/dev'
 alias ws='c ~/workspace'
 
-# Show directory contents after navigation
-function c() {
-    builtin cd "$*";
-    nfiles=$(ls . | wc -l)
-    if [ $nfiles -lt 100 ]; then
-        ll
-    else
-        echo "(${nfiles} files)"
-    fi
-}
-
 # Make a directory, then cd in!
 function mcd() {
     mkdir -p $1

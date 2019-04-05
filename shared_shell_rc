@@ -12,3 +12,15 @@ alias checkin='git pull -r && git push'
 clone () {
   git clone git@github.com:$1
 }
+
+# Show directory contents after navigation
+function c() {
+    builtin cd "$*";
+    nfiles=$(ls . | wc -l)
+    if [ $nfiles -lt 100 ]; then
+        ll
+    else
+        echo "(${nfiles} files)"
+    fi
+}
+
