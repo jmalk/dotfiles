@@ -1,5 +1,4 @@
 # Extensions
 
-GitLens - Git supercharged
-Prettier - Code formatter
-
+- GitLens - Git supercharged
+- Prettier - Code formatter
