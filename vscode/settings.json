@@ -5,9 +5,9 @@
     "files.trimTrailingWhitespace": true,
     "editor.tabSize": 2,
     "breadcrumbs.enabled": true,
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "[javascript]": {
-      "editor.formatOnSave": false,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "eslint.autoFixOnSave": false
+    "prettier.eslintIntegration": true
 }
