@@ -9,5 +9,7 @@
     "[javascript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.eslintIntegration": true
+    "prettier.eslintIntegration": true,
+    "search.location": "sidebar",
+    "workbench.panel.defaultLocation": "right"
 }
