@@ -4,6 +4,8 @@ export NVM_DIR="$HOME/.nvm"
 
 alias n='nvm use `cat .node-version`'
 
+alias nr='npm run'
+
 alias nv='nvim'
 
 alias checkin='git pull -r && git push'
