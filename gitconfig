@@ -3,7 +3,7 @@
   name = Joshua Malkinson
   email = joshua.malkinson@bbc.co.uk
 [alias]
-	co = checkout
+  co = checkout
   br = branch
   ci = commit
   st = status
