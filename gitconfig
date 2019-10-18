@@ -7,3 +7,5 @@
   br = branch
   ci = commit
   st = status
+[commit]
+  template = ~/.gitmessage.txt
