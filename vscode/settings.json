@@ -1,15 +1,12 @@
 {
-    "workbench.colorTheme": "Solarized Light",
-    "workbench.editor.enablePreview": false,
-    "window.zoomLevel": 1,
-    "files.trimTrailingWhitespace": true,
-    "editor.tabSize": 2,
-    "breadcrumbs.enabled": true,
-    "editor.formatOnSave": true,
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.eslintIntegration": true,
-    "search.location": "sidebar",
-    "workbench.panel.defaultLocation": "right"
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.editor.enablePreview": false,
+  "window.zoomLevel": 1,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "breadcrumbs.enabled": true,
+  "search.location": "sidebar",
+  "workbench.panel.defaultLocation": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true,
 }
