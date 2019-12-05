@@ -9,3 +9,5 @@
   st = status
 [commit]
   template = ~/.gitmessage.txt
+[pull]
+  rebase = true
