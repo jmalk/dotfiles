@@ -1,12 +1,12 @@
 {
+  "breadcrumbs.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "search.location": "sidebar",
+  "window.zoomLevel": 1,
   "workbench.colorTheme": "Solarized Light",
   "workbench.editor.enablePreview": false,
-  "window.zoomLevel": 1,
-  "files.trimTrailingWhitespace": true,
-  "editor.tabSize": 2,
-  "breadcrumbs.enabled": true,
-  "search.location": "sidebar",
   "workbench.panel.defaultLocation": "right",
   "workbench.startupEditor": "newUntitledFile",
-  "editor.formatOnSave": true,
 }
