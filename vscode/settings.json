@@ -7,6 +7,5 @@
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Solarized Light",
   "workbench.editor.enablePreview": false,
-  "workbench.panel.defaultLocation": "right",
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "newUntitledFile"
 }
