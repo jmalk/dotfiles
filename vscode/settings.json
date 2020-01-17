@@ -7,5 +7,8 @@
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Solarized Light",
   "workbench.editor.enablePreview": false,
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
