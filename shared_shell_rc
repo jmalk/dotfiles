@@ -10,6 +10,9 @@ alias nv='nvim'
 
 alias checkin='git pull -r && git push'
 
+# Edit changed files, especially useful for resolving merge conflicts
+alias editch='git diff --name-only | uniq | xargs code'
+
 # Clone a repo from GitHub, e.g. `clone jmalk/dotfiles` would clone this repo
 clone () {
   git clone git@github.com:$1
