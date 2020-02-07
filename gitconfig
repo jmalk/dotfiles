@@ -11,3 +11,5 @@
   template = ~/.gitmessage.txt
 [pull]
   rebase = true
+[fetch]
+  prune = true
