@@ -11,6 +11,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'w0rp/ale'
 Plug 'pangloss/vim-javascript'
+Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'google/vim-searchindex'
 call plug#end()
 
