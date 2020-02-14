@@ -3,7 +3,6 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "files.trimTrailingWhitespace": true,
-  "search.location": "sidebar",
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Solarized Light",
   "workbench.editor.enablePreview": false,
