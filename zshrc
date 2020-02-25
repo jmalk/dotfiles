@@ -100,3 +100,5 @@ source ~/z.sh
 
 source ~/.shared_shell_rc
 source ~/.work_shared_shell_rc
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
