@@ -1,13 +1,14 @@
 {
-  "breadcrumbs.enabled": true,
-  "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "files.trimTrailingWhitespace": true,
-  "window.zoomLevel": 1,
+  "workbench.startupEditor": "readme",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.preferredDarkColorTheme": "Solarized Dark",
+  "workbench.preferredLightColorTheme": "Solarized Light",
   "workbench.colorTheme": "Solarized Light",
-  "workbench.editor.enablePreview": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "window.autoDetectColorScheme": true,
+  "workbench.panel.defaultLocation": "right",
+  "editor.formatOnSave": true
 }
