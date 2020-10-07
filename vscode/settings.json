@@ -7,7 +7,7 @@
   "editor.renderLineHighlight": "gutter",
   "workbench.preferredDarkColorTheme": "Solarized Dark",
   "workbench.preferredLightColorTheme": "Solarized Light",
-  "workbench.colorTheme": "Solarized Light",
+  "workbench.colorTheme": "Solarized Dark",
   "window.autoDetectColorScheme": true,
   "workbench.panel.defaultLocation": "right",
   "workbench.editor.enablePreview": false,

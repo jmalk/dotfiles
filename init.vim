@@ -17,7 +17,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 call plug#end()
 
-set background=light
+set background=dark
 colorscheme solarized
 set title "appears on tab in iTerm
 set number
