@@ -23,5 +23,6 @@
   "**/.project": true,
   "**/.settings": true,
   "**/.factorypath": true
-}
+},
+"editor.minimap.enabled": false
 }
