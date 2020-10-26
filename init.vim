@@ -38,7 +38,8 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-" wild preferences
+" searching
+set path+=**
 set wildignore+=node_modules/**
 
 " Use The Silver Searcher for grepping and CtrlP
