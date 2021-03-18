@@ -29,6 +29,8 @@ set shiftwidth=2
 set expandtab
 
 set incsearch
+set ignorecase
+set smartcase
 
 set hidden
 
