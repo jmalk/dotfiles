@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "name": "TV Client",
+      "path": "../"
+    },
+    {
+      "name": "TAP",
+      "path": "../apps/tap"
+    },
+    {
+      "name": "Playback Controls",
+      "path": "../packages/playback-controls"
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "node_modules/": true,
+      "packages/": true,
+      "apps/": true
+    },
+    "prettier.requireConfig": true,
+    "gitlens.currentLine.scrollable": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "eslint.alwaysShowStatus": true,
+    "requireModuleSupport.configFile": "apps/tap/.vscode/.requirepath.dev.js",
+    "requireModuleSupport.modulePath": "apps/tap/"
+  }
+}
