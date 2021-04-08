@@ -15,6 +15,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
 set background=dark
@@ -64,6 +65,10 @@ let g:ale_fixers = {
 \}
 
 let g:ale_fix_on_save = 1
+
+" VimWiki
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " Mappings
 "" Replace current line with date
