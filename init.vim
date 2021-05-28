@@ -4,17 +4,17 @@
 " Install plugins by running :PlugInstall
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'altercation/vim-colors-solarized'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'yuttie/comfortable-motion.vim'
-Plug 'dense-analysis/ale'
-Plug 'google/vim-searchindex'
-Plug 'pangloss/vim-javascript'
-Plug 'MaxMEllon/vim-jsx-pretty'
-Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
+" Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-fugitive'
+" Plug 'airblade/vim-gitgutter'
+" Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'yuttie/comfortable-motion.vim'
+" Plug 'dense-analysis/ale'
+" Plug 'google/vim-searchindex'
+" Plug 'pangloss/vim-javascript'
+" Plug 'MaxMEllon/vim-jsx-pretty'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'peitalin/vim-jsx-typescript'
 Plug 'vimwiki/vimwiki'
 call plug#end()
 
