@@ -57,7 +57,15 @@ if executable('ag')
   let g:ctrlp_use_caching = 0
 endif
 
-nmap <Leader>f :grep ""<Left>
+nmap <Leader>f :grep! ""<Left>
+
+" Open quickfix window after grep
+" https://www.reddit.com/r/vim/comments/bmh977/automatically_open_quickfix_window_after/
+augroup quickfix
+  autocmd!
+  autocmd QuickFixCmdPost [^l]* cwindow
+  autocmd QuickFixCmdPost l* lwindow
+augroup END
 
 " After this is configured, :ALEFix will try and fix your JS code with ESLint.
 let g:ale_fixers = {
