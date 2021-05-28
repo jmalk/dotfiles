@@ -41,7 +41,7 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-" searching
+" Find files
 set path+=**
 set wildignore+=node_modules/**
 
