@@ -9,16 +9,12 @@
       "path": "../apps/tap"
     },
     {
+      "name": "Sounds",
+      "path": "../apps/sounds"
+    },
+    {
       "name": "Playback Controls",
       "path": "../packages/playback-controls"
-    },
-    {
-      "name": "Version Checker",
-      "path": "../packages/version-checker"
-    },
-    {
-      "name": "App Restarter",
-      "path": "../packages/app-restarter"
     },
   ],
   "settings": {
