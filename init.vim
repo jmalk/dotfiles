@@ -3,13 +3,15 @@
 " Instructions for installing Plug: https://github.com/junegunn/vim-plug
 " Install plugins by running :PlugInstall
 call plug#begin('~/.local/share/nvim/plugged')
-Plug 'altercation/vim-colors-solarized'
+Plug 'lifepillar/vim-solarized8'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'vimwiki/vimwiki'
 call plug#end()
 
+set termguicolors
 set background=dark
-colorscheme solarized
+colorscheme solarized8
+
 set title "appears on tab in iTerm
 set number
 set linebreak
