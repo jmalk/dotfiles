@@ -16,6 +16,10 @@
       "name": "Playback Controls",
       "path": "../packages/playback-controls"
     },
+    {
+      "name": "Version Checker",
+      "path": "../packages/version-checker"
+    },
   ],
   "settings": {
     "files.exclude": {
