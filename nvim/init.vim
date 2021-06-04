@@ -36,7 +36,8 @@ map <C-l> <C-w>l
 
 " Find files
 set path+=**
-set wildignore+=node_modules/**
+set wildignore+=**/node_modules/**,**/build/**,**/dist/**
+nmap <C-p> :find 
 
 " Use The Silver Searcher for grepping and CtrlP
 if executable('ag')
@@ -160,8 +161,8 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 
 " Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader>g  <Plug>(coc-format-selected)
+nmap <leader>g  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
@@ -238,4 +239,6 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-
+ 
+" Coc-prettier
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
