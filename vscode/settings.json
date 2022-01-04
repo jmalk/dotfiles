@@ -7,7 +7,7 @@
   "editor.renderLineHighlight": "gutter",
   "workbench.preferredDarkColorTheme": "Solarized Dark",
   "workbench.preferredLightColorTheme": "Solarized Light",
-  "workbench.colorTheme": "Solarized Dark",
+  "workbench.colorTheme": "Solarized Light",
   "window.autoDetectColorScheme": true,
   "workbench.panel.defaultLocation": "right",
   "workbench.editor.enablePreview": false,
@@ -39,5 +39,9 @@
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.requireConfig": true,
-  "editor.cursorBlinking": "solid"
+  "editor.cursorBlinking": "solid",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true
 }

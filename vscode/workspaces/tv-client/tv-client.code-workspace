@@ -5,29 +5,13 @@
       "path": "../"
     },
     {
-      "name": "TAP",
-      "path": "../apps/tap"
-    },
-    {
-      "name": "Sounds",
-      "path": "../apps/sounds"
-    },
-    {
-      "name": "Playback Controls",
-      "path": "../packages/playback-controls"
-    },
-    {
-      "name": "Version Checker",
-      "path": "../packages/version-checker"
+      "name": "Dialogs",
+      "path": "../packages/dialogs"
     },
   ],
   "settings": {
-    "files.exclude": {
-      "packages/": true,
-      "apps/": true
-    },
     "prettier.requireConfig": true,
-    "gitlens.currentLine.scrollable": false,
+    "gitlens.currentLine.scrollable": true,
     "diffEditor.ignoreTrimWhitespace": true,
     "eslint.alwaysShowStatus": true,
     "requireModuleSupport.configFile": "apps/tap/.vscode/.requirepath.dev.js",

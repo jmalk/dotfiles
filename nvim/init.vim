@@ -5,12 +5,11 @@
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'lifepillar/vim-solarized8'
 Plug 'yuttie/comfortable-motion.vim'
-Plug 'vimwiki/vimwiki'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 set termguicolors
-set background=dark
+set background=light
 colorscheme solarized8
 
 set title "appears on tab in iTerm
@@ -67,10 +66,6 @@ let g:ale_fixers = {
 \}
 
 let g:ale_fix_on_save = 1
-
-" VimWiki
-let g:vimwiki_list = [{'path': '~/Dropbox (BBC)/journal',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " Mappings
 "" Replace current line with date
