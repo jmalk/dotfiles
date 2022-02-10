@@ -21,7 +21,6 @@ I would like to automate a lot of this stuff.
 * Firefox
 * Slack
 * Spectacle (optional, window manager for neat tiling)
-* Dropbox
 
 ## Dev tools
 
