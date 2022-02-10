@@ -20,7 +20,7 @@ I would like to automate a lot of this stuff.
 * Chrome
 * Firefox
 * Slack
-* Spectacle (optional, window manager for neat tiling)
+* Rectangle
 
 ## Dev tools
 
