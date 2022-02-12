@@ -6,7 +6,9 @@
   co = checkout
   br = branch
   ci = commit
-  st = status
+  a = add
+  d = diff
+  s = status
 [commit]
   template = ~/.gitmessage.txt
 [pull]
