@@ -9,8 +9,6 @@
   a = add
   d = diff
   s = status
-[commit]
-  template = ~/.gitmessage.txt
 [pull]
   rebase = true
 [fetch]
