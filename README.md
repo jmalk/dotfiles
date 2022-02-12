@@ -31,9 +31,17 @@ I would like to automate a lot of this stuff.
 - XCode command line tools - try and run `gcc` and you'll be prompted to. Get Xcode from App Store if it all fails.
 - Homebrew - https://brew.sh/
 - Git - https://git-scm.com/download/
+- GitHub CLI - https://cli.github.com/
 - VSCode
 - Install NodeJS - https://nodejs.org/en/
 - Git ssh keys - https://github.com/settings/keys
+
+Note, could try automating some of this with Homebrew;
+
+```
+brew install git
+brew install gh
+```
 
 ## Personal preferences
 
