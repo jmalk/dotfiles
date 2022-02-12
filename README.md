@@ -27,11 +27,11 @@ I would like to automate a lot of this stuff.
 
 ## Dev tools
 
-- XCode command line tools - try and run `gcc` and you'll be prompted to. Get Xcode from App Store if it all fails.
-- Git - https://git-scm.com/download/
-- Homebrew - https://brew.sh/
-- VSCode
 - iTerm - https://www.iterm2.com/
+- XCode command line tools - try and run `gcc` and you'll be prompted to. Get Xcode from App Store if it all fails.
+- Homebrew - https://brew.sh/
+- Git - https://git-scm.com/download/
+- VSCode
 - Install NodeJS - https://nodejs.org/en/
 - Git ssh keys - https://github.com/settings/keys
 
