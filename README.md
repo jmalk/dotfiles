@@ -21,7 +21,7 @@ I would like to automate a lot of this stuff.
 - Chrome
   - Bitwarden
 - Firefox
-  - Bitwarden 
+  - Bitwarden
 - Slack
 - Rectangle
 
@@ -48,7 +48,7 @@ brew install gh
 - Dotfiles, e.g. bashrc, vimrc... (mine are in github, do what you want with yours)
 - git autocomplete script - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
 - git aliases - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Git-Aliases
-- Install oh-my-zsh
+- Install oh-my-zsh - https://ohmyz.sh/
 - Install z.sh
 - Install NeoVim
 - nvim, run :CheckHealth
