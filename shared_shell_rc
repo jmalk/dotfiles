@@ -39,7 +39,7 @@ function c() {
     fi
 }
 
-#  Uses tree - install first:
+# Uses tree - install first:
 # brew install tree
 function t() {
   # Defaults to 3 levels deep, do more with `t 5` or `t 1`
