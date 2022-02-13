@@ -41,6 +41,8 @@ Note, could try automating some of this with Homebrew;
 ```
 brew install git
 brew install gh
+brew install z
+brew install neovim
 ```
 
 ## Personal preferences
@@ -49,6 +51,6 @@ brew install gh
 - git autocomplete script - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
 - git aliases - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Git-Aliases
 - Install oh-my-zsh - https://ohmyz.sh/
-- Install z.sh - `brew install z` - https://github.com/rupa/z
+- Install z.sh - https://github.com/rupa/z
 - Install NeoVim
-- nvim, run :CheckHealth
+- nvim, run :checkhealth
