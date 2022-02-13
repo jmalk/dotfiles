@@ -49,6 +49,6 @@ brew install gh
 - git autocomplete script - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
 - git aliases - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Git-Aliases
 - Install oh-my-zsh - https://ohmyz.sh/
-- Install z.sh
+- Install z.sh - `brew install z` - https://github.com/rupa/z
 - Install NeoVim
 - nvim, run :CheckHealth

@@ -100,10 +100,12 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# export _Z_CMD='j'
-# source ~/z.sh
+export _Z_CMD='j'
+source /opt/homebrew/etc/profile.d/z.sh
 
 source ~/.shared_shell_rc
+
+# For stuff that shouldn't be public:
 # source ~/.work_shared_shell_rc
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
