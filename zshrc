@@ -64,7 +64,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=()
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -95,10 +95,10 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export _Z_CMD='j'
-source ~/z.sh
+# export _Z_CMD='j'
+# source ~/z.sh
 
 source ~/.shared_shell_rc
-source ~/.work_shared_shell_rc
+# source ~/.work_shared_shell_rc
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
