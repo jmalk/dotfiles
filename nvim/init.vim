@@ -14,7 +14,7 @@ Plug 'yuttie/comfortable-motion.vim'
 call plug#end()
 
 set termguicolors
-set background=light
+set background=dark
 colorscheme solarized8
 
 set title "appears on tab in iTerm
