@@ -41,8 +41,10 @@ Note, could try automating some of this with Homebrew;
 ```
 brew install git
 brew install gh
+brew install glab
 brew install z
 brew install neovim
+brew install the_silver_searcher
 ```
 
 ## Personal preferences
