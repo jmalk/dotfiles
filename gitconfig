@@ -8,6 +8,7 @@
   ci = commit
   a = add
   d = diff
+  ds = diff --staged
   s = status
 [pull]
   rebase = true
