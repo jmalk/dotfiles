@@ -100,8 +100,8 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export _Z_CMD='j'
-source /opt/homebrew/etc/profile.d/z.sh
+# export _Z_CMD='j'
+# source /opt/homebrew/etc/profile.d/z.sh
 
 source ~/.shared_shell_rc
 
