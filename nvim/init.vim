@@ -65,13 +65,6 @@ augroup quickfix
   autocmd QuickFixCmdPost l* lwindow
 augroup END
 
-" After this is configured, :ALEFix will try and fix your JS code with ESLint.
-let g:ale_fixers = {
-\   'javascript': ['eslint'],
-\}
-
-let g:ale_fix_on_save = 1
-
 " Mappings
 "" Replace current line with date
 nnoremap <Leader>d dd:.-1r !date<CR>
