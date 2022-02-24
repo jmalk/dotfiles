@@ -45,6 +45,7 @@ brew install glab
 brew install z
 brew install neovim
 brew install the_silver_searcher
+brew install tree
 ```
 
 ## Personal preferences
