@@ -10,6 +10,7 @@
   d = diff
   ds = diff --staged
   s = status
+  r = restore
 [pull]
   rebase = true
 [fetch]
