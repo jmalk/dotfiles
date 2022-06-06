@@ -46,3 +46,8 @@ function t() {
   # pass additional args after
   tree -I '.git|node_modules|.DS_Store' --dirsfirst -L ${1:-3} -aC $2
 }
+
+# Open a JIRA ticket in default browser
+lcom () {
+  open https://dev-ops.atlassian.net/browse/LCOM-$1
+}
