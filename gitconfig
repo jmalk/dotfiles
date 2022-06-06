@@ -4,6 +4,7 @@
   email = josh.malkinson@lush.co.uk
 [alias]
   a = add
+  bi = bisect
   br = branch
   ci = commit
   d = diff
