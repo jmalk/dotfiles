@@ -9,6 +9,8 @@
   d = diff
   ds = diff --staged
   m = merge
+  pl = pull
+  ps = push
   r = restore
   s = status
   sw = switch
