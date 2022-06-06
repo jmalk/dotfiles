@@ -105,7 +105,4 @@ fi
 
 source ~/.shared_shell_rc
 
-# For stuff that shouldn't be public:
-# source ~/.work_shared_shell_rc
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

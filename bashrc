@@ -65,6 +65,5 @@ export PATH=~/.npm-global/bin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 source ~/.shared_shell_rc
-source ~/.work_shared_shell_rc
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
