@@ -46,6 +46,7 @@ brew install z
 brew install neovim
 brew install the_silver_searcher
 brew install tree
+brew install markdown
 ```
 
 ## Personal preferences
