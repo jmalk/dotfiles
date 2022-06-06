@@ -3,15 +3,15 @@
   name = Josh Malkinson
   email = josh.malkinson@lush.co.uk
 [alias]
+  a = add
   br = branch
   ci = commit
-  a = add
   d = diff
   ds = diff --staged
-  s = status
-  r = restore
-  sw = switch
   m = merge
+  r = restore
+  s = status
+  sw = switch
 [pull]
   rebase = true
 [fetch]
