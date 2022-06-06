@@ -11,6 +11,7 @@
   s = status
   r = restore
   sw = switch
+  m = merge
 [pull]
   rebase = true
 [fetch]
