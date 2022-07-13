@@ -9,6 +9,7 @@
   ci = commit
   d = diff
   ds = diff --staged
+  l = log
   m = merge
   pl = pull
   ps = push
