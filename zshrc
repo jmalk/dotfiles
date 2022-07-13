@@ -103,6 +103,6 @@ fi
 # export _Z_CMD='j'
 # source /opt/homebrew/etc/profile.d/z.sh
 
-source ~/.shared_shell_rc
+source ~/.sharedrc
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
