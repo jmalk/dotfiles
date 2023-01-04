@@ -14,6 +14,7 @@ brew install markdown
 brew install --cask authy
 brew install --cask spotify
 brew install --cask firefox
+brew install --cask visual-studio-code
 
 # Install VimPlug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
