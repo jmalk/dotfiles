@@ -11,6 +11,7 @@ endif
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'lifepillar/vim-solarized8'
 Plug 'yuttie/comfortable-motion.vim'
+Plug 'rust-lang/rust.vim'
 call plug#end()
 
 set termguicolors
@@ -69,3 +70,5 @@ augroup END
 "" Replace current line with date
 nnoremap <Leader>d dd:.-1r !date<CR>
 
+" Plugin Settings
+let g:rustfmt_autosave = 1
