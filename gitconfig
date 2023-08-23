@@ -7,13 +7,16 @@
   bi = bisect
   br = branch
   ci = commit
+  co = checkout
   d = diff
   ds = diff --staged
   l = log
+  lo = log --oneline
   m = merge
   pl = pull
   ps = push
   r = restore
+  rb = rebase
   s = status
   st = stash
   sw = switch
