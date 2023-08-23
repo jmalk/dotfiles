@@ -9,8 +9,8 @@ alias n='nvm use `cat .node-version`'
 alias nr='npm run'
 
 alias nv='nvim'
-
 alias g='git'
+alias m='mob'
 
 alias checkin='git pull -r && git push'
 
@@ -51,3 +51,4 @@ function t() {
 lcom () {
   open https://dev-ops.atlassian.net/browse/LCOM-$1
 }
+
