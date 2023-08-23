@@ -11,6 +11,7 @@ brew install neovim
 brew install the_silver_searcher
 brew install tree
 brew install markdown
+brew install remotemobprogramming/brew/mob
 brew install --cask authy
 brew install --cask spotify
 brew install --cask firefox
