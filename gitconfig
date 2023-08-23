@@ -11,6 +11,8 @@
   d = diff
   ds = diff --staged
   l = log
+  la = last
+  last = log -1 HEAD -p
   lo = log --oneline
   m = merge
   pl = pull
@@ -20,6 +22,8 @@
   s = status
   st = stash
   sw = switch
+  unst = unstage
+  unstage = restore --staged --
 [pull]
   rebase = true
 [fetch]
