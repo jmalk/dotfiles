@@ -52,3 +52,6 @@ lcom () {
   open https://dev-ops.atlassian.net/browse/LCOM-$1
 }
 
+# Load helper functions for doing conventional commits
+source ~/dotfiles/conv-commit
+alias coco="conv-commit"
