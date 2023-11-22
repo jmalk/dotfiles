@@ -2,7 +2,7 @@
 
 conv-commit() {
   if (($# == 0)); then
-    echo "options available: feat, fix, chore, ci, test, refactor, wip"
+    echo "options available: feat, fix, chore, ci, docs, test, refactor, wip"
   elif (($# == 2)); then
     message="$(tr '[:upper:]' '[:lower:]' <<<${2:0:1})${2:1}"
     if [[ ${#message} -gt 100 ]]; then
@@ -36,6 +36,10 @@ chore() {
 
 ci() {
   conv-commit ci "$@"
+}
+
+docs() {
+  conv-commit docs "$@"
 }
 
 style() {
