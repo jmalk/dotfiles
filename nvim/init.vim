@@ -42,7 +42,7 @@ map <C-l> <C-w>l
 " Find files
 set path+=**
 set wildignore+=**/node_modules/**,**/build/**,**/dist/**
-nmap <C-p> :find
+nmap <C-p> :find 
 
 " Use The Silver Searcher for grepping and CtrlP
 if executable('ag')
