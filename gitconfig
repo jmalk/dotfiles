@@ -19,6 +19,7 @@
   ps = push
   r = restore
   rb = rebase
+  rs = restore --staged
   s = status
   st = stash
   sw = switch
