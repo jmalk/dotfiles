@@ -6,6 +6,7 @@
 # Install apps
 brew install gh
 brew install glab
+brew install jq
 brew install z
 brew install neovim
 brew install the_silver_searcher
