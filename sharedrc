@@ -48,8 +48,8 @@ function t() {
 }
 
 # Open a JIRA ticket in default browser
-lcom () {
-  open https://dev-ops.atlassian.net/browse/LCOM-$1
+fcps () {
+  open https://co-op-digital.atlassian.net/browse/FCPS-$1
 }
 
 # Load helper functions for doing conventional commits
