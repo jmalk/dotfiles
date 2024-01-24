@@ -4,6 +4,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install apps
+brew install bruno
 brew install gh
 brew install glab
 brew install jq
