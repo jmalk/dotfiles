@@ -15,7 +15,7 @@
   last = log -1 HEAD -p
   lo = log --oneline
   m = merge
-  pl = pull
+  p = pull
   ps = push
   r = restore
   rb = rebase
