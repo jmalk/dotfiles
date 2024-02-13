@@ -10,19 +10,17 @@ To load plugins specified in `init.vim` and `vimrc` you will need [VimPlug](http
 
 To make a symlink on a Mac run `ln -s /path/to/original/ /path/to/link`
 
-
 # So You've Got a New MacBook?
 
-I would like to automate a lot of this stuff.
+Automating this in `new_laptop.sh`.
 
 ## Mac apps
 
-- Authy
+- Authy (from App Store)
 - Chrome
-  - Bitwarden
-- Firefox
-  - Bitwarden
+- Bitwarden extension for Chrome and Firefox
 - Slack
+- Raycast
 - Rectangle
 
 ## Dev tools
@@ -30,31 +28,13 @@ I would like to automate a lot of this stuff.
 - XCode command line tools - try and run `gcc` and you'll be prompted to. Get Xcode from App Store if it all fails
 - Homebrew - https://brew.sh/
 - Git - https://git-scm.com/download/
-- GitHub CLI - https://cli.github.com/
 - By this point you should have everything you need to clone this repo and run `make_mac_symlinks.sh`
 - iTerm - https://www.iterm2.com/
-- VSCode
 - Install nvm from https://github.com/nvm-sh/nvm#usage then do `nvm install --lts`
-
-Note, could try automating some of this with Homebrew;
-
-```
-brew install git
-brew install gh
-brew install glab
-brew install z
-brew install neovim
-brew install the_silver_searcher
-brew install tree
-brew install markdown
-```
 
 ## Personal preferences
 
 - Dotfiles, e.g. zshrc, vimrc... (mine are in github, do what you want with yours)
-- git autocomplete script - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
-- git aliases - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Git-Aliases
 - Install oh-my-zsh - https://ohmyz.sh/
-- Install z.sh - https://github.com/rupa/z
 - Install NeoVim
 - nvim, run :checkhealth
