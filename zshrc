@@ -100,6 +100,9 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Edit this file
+alias zshrc='${EDITOR} ~/dotfiles/zshrc && source ~/.zshrc'
+
 source ~/.sharedrc
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -132,3 +135,53 @@ load-nvmrc
 
 # Load autojump
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home"
+
+alias nr='npm run'
+
+alias nv='nvim'
+alias g='git'
+alias updt='git stash && git pull -r && git stash apply'
+alias m='mob'
+
+alias checkin='git pull -r && git push'
+
+# Go to root directory of git project
+alias gr='cd $(git rev-parse --show-toplevel)'
+
+# Open VS Code in root directory of git project if in git project
+alias cod='git rev-parse --show-toplevel && cd $(git rev-parse --show-toplevel) && code .'
+
+# Clone a repo from GitHub, e.g. `clone jmalk/dotfiles` would clone this repo
+clone () {
+  git clone git@github.com:$1
+}
+
+# Show directory contents after navigation
+function c() {
+    builtin cd "$*";
+    nfiles=$(ls . | wc -l)
+    if [ $nfiles -lt 100 ]; then
+        ll
+    else
+        echo "(${nfiles} files)"
+    fi
+}
+
+# Uses tree - install first:
+# brew install tree
+function t() {
+  # Defaults to 3 levels deep, do more with `t 5` or `t 1`
+  # pass additional args after
+  tree -I '.git|node_modules|.DS_Store' --dirsfirst -L ${1:-3} -aC $2
+}
+
+# Open a JIRA ticket in default browser
+fcps () {
+  open https://co-op-digital.atlassian.net/browse/FCPS-$1
+}
+
+# Load helper functions for doing conventional commits
+source ~/dotfiles/conv-commit
+alias coco="conv-commit"
