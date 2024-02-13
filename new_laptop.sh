@@ -14,7 +14,6 @@ brew install neovim
 brew install remotemobprogramming/brew/mob
 brew install the_silver_searcher
 brew install tree
-brew install z
 brew install --cask firefox
 brew install --cask spotify
 brew install --cask visual-studio-code
