@@ -4,19 +4,19 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install apps
+brew install autojump
 brew install bruno
 brew install gh
 brew install glab
 brew install jq
-brew install z
+brew install markdown
 brew install neovim
+brew install remotemobprogramming/brew/mob
 brew install the_silver_searcher
 brew install tree
-brew install markdown
-brew install remotemobprogramming/brew/mob
-brew install --cask authy
-brew install --cask spotify
+brew install z
 brew install --cask firefox
+brew install --cask spotify
 brew install --cask visual-studio-code
 
 # Install VimPlug
@@ -30,7 +30,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 # Symlink dotfiles
-# TODO: Could replace this with version controlling entire home directory
+# TODO: Could replace this with version controlling entire home directory, or a bare repo, or gnu stow
 ln -s ~/dotfiles/sharedrc ~/.sharedrc
 ln -s ~/dotfiles/bashrc ~/.bashrc
 ln -s ~/dotfiles/zshrc ~/.zshrc
