@@ -103,8 +103,6 @@ fi
 # Edit this file
 alias zshrc='${EDITOR} ~/dotfiles/zshrc && source ~/.zshrc'
 
-source ~/.sharedrc
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export NVM_DIR="$HOME/.nvm"

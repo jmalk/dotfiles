@@ -31,8 +31,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 # Symlink dotfiles
 # TODO: Could replace this with version controlling entire home directory, or a bare repo, or gnu stow
-ln -s ~/dotfiles/sharedrc ~/.sharedrc
-ln -s ~/dotfiles/bashrc ~/.bashrc
 ln -s ~/dotfiles/zshrc ~/.zshrc
 ln -s ~/dotfiles/vimrc ~/.vimrc
 mkdir -p ~/.config/nvim

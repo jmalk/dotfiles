@@ -51,7 +51,7 @@ brew install markdown
 
 ## Personal preferences
 
-- Dotfiles, e.g. bashrc, vimrc... (mine are in github, do what you want with yours)
+- Dotfiles, e.g. zshrc, vimrc... (mine are in github, do what you want with yours)
 - git autocomplete script - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
 - git aliases - https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks#Git-Aliases
 - Install oh-my-zsh - https://ohmyz.sh/
