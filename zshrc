@@ -141,9 +141,14 @@ alias nr='npm run'
 alias nv='nvim'
 alias g='git'
 alias updt='git stash && git pull -r && git stash apply'
-alias m='mob'
-
 alias checkin='git pull -r && git push'
+alias whip="git commit --no-verify -am"
+
+alias m='mob'
+alias msb='mob start -b'
+alias ms='mob start'
+alias mn='mob next'
+
 
 # Go to root directory of git project
 alias gr='cd $(git rev-parse --show-toplevel)'
