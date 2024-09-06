@@ -16,7 +16,7 @@ Plug 'tpope/vim-surround'
 call plug#end()
 
 set termguicolors
-set background=dark
+set background=light
 colorscheme solarized8
 
 set title "appears on tab in iTerm
