@@ -153,6 +153,9 @@ alias mn='mob next'
 # Go to root directory of git project
 alias gr='cd $(git rev-parse --show-toplevel)'
 
+# Copy the name of the current git branch
+alias cpbr='git branch --show-current | pbcopy'
+
 # Open VS Code in root directory of git project if in git project
 alias cod='git rev-parse --show-toplevel && cd $(git rev-parse --show-toplevel) && code .'
 
@@ -181,10 +184,16 @@ function t() {
 }
 
 # Open a JIRA ticket in default browser
-fcps () {
+jira () {
   open https://co-op-digital.atlassian.net/browse/FCPS-$1
 }
 
 # Load helper functions for doing conventional commits
 source ~/dotfiles/conv-commit
 alias coco="conv-commit"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
