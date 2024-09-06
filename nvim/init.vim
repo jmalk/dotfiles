@@ -12,6 +12,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'lifepillar/vim-solarized8'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'rust-lang/rust.vim'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 set termguicolors
