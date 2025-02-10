@@ -15,7 +15,7 @@ conv-commit() {
     if [[ ${#message} -gt 100 ]]; then
       echo "message longer than 100 characters, (${#message})"
     else
-      git commit -m "$1(FCPS-$2): $message"
+      git commit -m "$1(QCOM-$2): $message"
     fi
   else
     echo 'Wrong number of args'
