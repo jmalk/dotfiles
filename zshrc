@@ -103,8 +103,7 @@ fi
 # Edit this file
 alias zshrc='${EDITOR} ~/dotfiles/zshrc && source ~/.zshrc'
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+# Initialize nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -134,10 +133,9 @@ load-nvmrc
 # Load autojump
 [ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
 
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home"
 
+# Aliases
 alias nr='npm run'
-
 alias nv='nvim'
 alias g='git'
 alias updt='git stash && git pull -r && git stash apply'
@@ -185,15 +183,17 @@ function t() {
 
 # Open a JIRA ticket in default browser
 jira () {
-  open https://co-op-digital.atlassian.net/browse/FCPS-$1
+  open https://co-op-digital.atlassian.net/browse/QCOM-$1
 }
 
 # Load helper functions for doing conventional commits
 source ~/dotfiles/conv-commit
 alias coco="conv-commit"
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+
+# Setup pyenv
+# export PYENV_ROOT="$HOME/.pyenv"
+# [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init -)"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
