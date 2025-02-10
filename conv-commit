@@ -58,6 +58,10 @@ refactor() {
   conv-commit refactor "$@"
 }
 
+ref() {
+  conv-commit refactor "$@"
+}
+
 wip() {
   conv-commit wip "$@"
 }
