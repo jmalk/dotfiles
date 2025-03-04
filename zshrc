@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -70,7 +70,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
 
@@ -138,24 +138,29 @@ load-nvmrc
 alias nr='npm run'
 alias nv='nvim'
 alias g='git'
-alias updt='git stash && git pull -r && git stash apply'
-alias checkin='git pull -r && git push'
+alias gp='git pull || git pull'
+alias gps='git push || git push'
+alias updt='git stash && gp && git stash apply'
+alias checkin='gp && gps'
 alias whip="git commit --no-verify -am"
 
 alias m='mob'
 alias msb='mob start -b'
-alias ms='mob start'
-alias mn='mob next'
-
-
-# Go to root directory of git project
-alias gr='cd $(git rev-parse --show-toplevel)'
+alias ms='mob start || mob start'
+alias mst='mob start 10 || mob start 10'
+alias mn='mob next || mob next'
 
 # Copy the name of the current git branch
 alias cpbr='git branch --show-current | pbcopy'
 
+# Go to root directory of git project
+alias gr='cd $(git rev-parse --show-toplevel)'
+
 # Open VS Code in root directory of git project if in git project
 alias cod='git rev-parse --show-toplevel && cd $(git rev-parse --show-toplevel) && code .'
+
+# Open IntelliJ IDEA in root directory of git project if in git project
+alias ide='git rev-parse --show-toplevel && cd $(git rev-parse --show-toplevel) && idea .'
 
 # Clone a repo from GitHub, e.g. `clone jmalk/dotfiles` would clone this repo
 clone () {
